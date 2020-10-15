@@ -1,0 +1,14 @@
+class Math{
+
+    function int multiply(int x, int y)
+    {
+        var int sum;
+        let sum = 0;
+        while (x > 0)
+        {
+            let sum = sum + y;
+            let x = x - 1;
+        }
+        return sum;
+    }
+}
